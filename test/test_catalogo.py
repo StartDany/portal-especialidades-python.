@@ -2,8 +2,8 @@ import unittest
 from catalogo import listar_especialidades, buscar_especialidades
 
 class TestCatalogo(unittest.TestCase):
-    def test_hay_tres_especialidades(self):
-        self.assertEqual(len(listar_especialidades()), 3)
+    def test_hay_cuatro_especialidades(self):
+        self.assertEqual(len(listar_especialidades()), 4)
     def test_busqueda_por_nombre(self):
         resultados = buscar_especialidades("software")
         self.assertEqual(len(resultados), 1)

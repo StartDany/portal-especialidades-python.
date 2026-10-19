@@ -14,6 +14,11 @@ ESPECIALIDADES = [
         "descripcion": "Desarrolla soluciones visuales y creativas.",
         "nivel": "Inicial",
     },
+    {
+        "nombre": "Inteligencia Artificial",
+        "descripcion": "Desarrollo de soluciones con inteligencia artificial.",
+        "nivel": "Avanzado"
+    }
 ]
 
 
